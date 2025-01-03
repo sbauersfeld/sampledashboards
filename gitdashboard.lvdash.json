@@ -1,1 +1,18 @@
-{"pages":[{"name":"02867e8b","displayName":"Untitled page"}]}
+{
+  "pages" : [ {
+    "name" : "02867e8b",
+    "displayName" : "Untitled page",
+    "layout" : [ {
+      "widget" : {
+        "name" : "ea67bec2",
+        "textbox_spec" : "Hello World!"
+      },
+      "position" : {
+        "x" : 0,
+        "y" : 0,
+        "width" : 6,
+        "height" : 2
+      }
+    } ]
+  } ]
+}
