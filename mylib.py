@@ -1,4 +1,3 @@
-import pandas as pd
-
 def sumRows(data):
-  return data.sum(axis=1)
+  data['sum'] = data.sum(axis=1)
+  return data

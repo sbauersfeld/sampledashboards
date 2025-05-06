@@ -1,0 +1,60 @@
+{
+  "datasets" : [ {
+    "name" : "8161571f",
+    "displayName" : "sample data",
+    "query" : "select * from my_demo_git_table_dev"
+  } ],
+  "pages" : [ {
+    "name" : "3b62113b",
+    "displayName" : "Untitled page",
+    "layout" : [ {
+      "widget" : {
+        "name" : "62b60939",
+        "queries" : [ {
+          "name" : "main_query",
+          "query" : {
+            "datasetName" : "8161571f",
+            "fields" : [ {
+              "name" : "a",
+              "expression" : "`a`"
+            }, {
+              "name" : "sum",
+              "expression" : "`sum`"
+            } ],
+            "disaggregated" : true
+          }
+        } ],
+        "spec" : {
+          "version" : 3,
+          "widgetType" : "bar",
+          "encodings" : {
+            "x" : {
+              "fieldName" : "a",
+              "scale" : {
+                "type" : "quantitative"
+              },
+              "displayName" : "a"
+            },
+            "y" : {
+              "fieldName" : "sum",
+              "scale" : {
+                "type" : "quantitative"
+              },
+              "displayName" : "sum"
+            }
+          },
+          "frame" : {
+            "title" : "Sum over time",
+            "showTitle" : true
+          }
+        }
+      },
+      "position" : {
+        "x" : 0,
+        "y" : 0,
+        "width" : 3,
+        "height" : 6
+      }
+    } ]
+  } ]
+}
